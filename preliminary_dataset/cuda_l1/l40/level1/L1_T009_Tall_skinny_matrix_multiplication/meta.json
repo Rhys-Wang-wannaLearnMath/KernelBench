@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 1,
+  "task_id": 9,
+  "task_name": "Tall_skinny_matrix_multiplication",
+  "kernelbench_file": "level1/9_Tall_skinny_matrix_multiplication_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 107.881,
+    "score_torch_compile_default": 96.893,
+    "score_torch_compile_reduce_overhead": 90.933,
+    "score_cuda_graph": 275.497,
+    "score_cudnn": 133.338
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

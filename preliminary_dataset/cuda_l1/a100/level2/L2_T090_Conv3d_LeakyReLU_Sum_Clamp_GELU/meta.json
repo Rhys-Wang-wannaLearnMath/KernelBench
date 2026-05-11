@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 90,
+  "task_name": "Conv3d_LeakyReLU_Sum_Clamp_GELU",
+  "kernelbench_file": "level2/90_Conv3d_LeakyReLU_Sum_Clamp_GELU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.229,
+    "score_torch_compile_default": null,
+    "score_torch_compile_reduce_overhead": null,
+    "score_cuda_graph": null,
+    "score_cudnn": null
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

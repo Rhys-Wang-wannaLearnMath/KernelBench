@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 79,
+  "task_name": "Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max",
+  "kernelbench_file": "level2/79_Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.104,
+    "score_torch_compile_default": 0.805,
+    "score_torch_compile_reduce_overhead": 0.801,
+    "score_cuda_graph": 1.234,
+    "score_cudnn": 16.258
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

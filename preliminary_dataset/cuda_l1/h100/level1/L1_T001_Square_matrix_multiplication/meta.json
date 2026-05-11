@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 1,
+  "task_name": "Square_matrix_multiplication",
+  "kernelbench_file": "level1/1_Square_matrix_multiplication_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.75,
+    "score_torch_compile_default": 2.457,
+    "score_torch_compile_reduce_overhead": 3.777,
+    "score_cuda_graph": 1.896,
+    "score_cudnn": 2.9
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

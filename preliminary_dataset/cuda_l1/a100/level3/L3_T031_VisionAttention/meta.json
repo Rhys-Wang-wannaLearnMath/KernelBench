@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 3,
+  "task_id": 31,
+  "task_name": "VisionAttention",
+  "kernelbench_file": "level3/31_VisionAttention.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 24.835,
+    "score_torch_compile_default": 8.168,
+    "score_torch_compile_reduce_overhead": 8.213,
+    "score_cuda_graph": 24.567,
+    "score_cudnn": 24.618
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

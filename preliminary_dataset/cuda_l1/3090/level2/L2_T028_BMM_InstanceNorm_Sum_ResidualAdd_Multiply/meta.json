@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 28,
+  "task_name": "BMM_InstanceNorm_Sum_ResidualAdd_Multiply",
+  "kernelbench_file": "level2/28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.643,
+    "score_torch_compile_default": 2.359,
+    "score_torch_compile_reduce_overhead": 3.042,
+    "score_cuda_graph": 0.625,
+    "score_cudnn": 1.851
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

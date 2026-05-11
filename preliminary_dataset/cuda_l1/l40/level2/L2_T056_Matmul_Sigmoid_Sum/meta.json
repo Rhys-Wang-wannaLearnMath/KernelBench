@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 56,
+  "task_name": "Matmul_Sigmoid_Sum",
+  "kernelbench_file": "level2/56_Matmul_Sigmoid_Sum.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.207,
+    "score_torch_compile_default": 1.704,
+    "score_torch_compile_reduce_overhead": 1.706,
+    "score_cuda_graph": 0.51,
+    "score_cudnn": 1.462
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

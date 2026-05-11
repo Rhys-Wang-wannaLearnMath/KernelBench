@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 100,
+  "task_name": "ConvTranspose3d_Clamp_Min_Divide",
+  "kernelbench_file": "level2/100_ConvTranspose3d_Clamp_Min_Divide.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.879,
+    "score_torch_compile_default": 1.715,
+    "score_torch_compile_reduce_overhead": 1.718,
+    "score_cuda_graph": 1.949,
+    "score_cudnn": 2.72
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

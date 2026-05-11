@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 17,
+  "task_name": "Matmul_with_transposed_B",
+  "kernelbench_file": "level1/17_Matmul_with_transposed_B.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.625,
+    "score_torch_compile_default": 2.352,
+    "score_torch_compile_reduce_overhead": 2.713,
+    "score_cuda_graph": 2.086,
+    "score_cudnn": 2.283
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

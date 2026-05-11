@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 42,
+  "task_name": "Max_Pooling_2D",
+  "kernelbench_file": "level1/42_Max_Pooling_2D.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.163,
+    "score_torch_compile_default": 2.757,
+    "score_torch_compile_reduce_overhead": 3.665,
+    "score_cuda_graph": 1.379,
+    "score_cudnn": 1.552
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

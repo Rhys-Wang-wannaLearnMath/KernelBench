@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 20,
+  "task_name": "ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd",
+  "kernelbench_file": "level2/20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.666,
+    "score_torch_compile_default": 0.58,
+    "score_torch_compile_reduce_overhead": 0.594,
+    "score_cuda_graph": 1.813,
+    "score_cudnn": 5.334
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

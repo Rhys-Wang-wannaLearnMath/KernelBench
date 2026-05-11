@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 1,
+  "task_id": 70,
+  "task_name": "conv_transposed_3D_asymmetric_input_square_kernel",
+  "kernelbench_file": "level1/70_conv_transposed_3D__asymmetric_input__square_kernel.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.681,
+    "score_torch_compile_default": 1.7,
+    "score_torch_compile_reduce_overhead": 1.924,
+    "score_cuda_graph": 1.656,
+    "score_cudnn": 2.982
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

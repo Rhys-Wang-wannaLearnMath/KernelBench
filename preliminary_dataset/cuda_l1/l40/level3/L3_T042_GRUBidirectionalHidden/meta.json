@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 3,
+  "task_id": 42,
+  "task_name": "GRUBidirectionalHidden",
+  "kernelbench_file": "level3/42_GRUBidirectionalHidden.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.384,
+    "score_torch_compile_default": 2.041,
+    "score_torch_compile_reduce_overhead": 2.05,
+    "score_cuda_graph": 1.006,
+    "score_cudnn": 1.219
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

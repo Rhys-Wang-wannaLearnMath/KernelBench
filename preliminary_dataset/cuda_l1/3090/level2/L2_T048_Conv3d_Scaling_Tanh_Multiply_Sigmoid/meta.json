@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 48,
+  "task_name": "Conv3d_Scaling_Tanh_Multiply_Sigmoid",
+  "kernelbench_file": "level2/48_Conv3d_Scaling_Tanh_Multiply_Sigmoid.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.161,
+    "score_torch_compile_default": 0.674,
+    "score_torch_compile_reduce_overhead": 0.684,
+    "score_cuda_graph": 1.268,
+    "score_cudnn": 1.281
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 2,
+  "task_name": "Standard_matrix_multiplication",
+  "kernelbench_file": "level1/2_Standard_matrix_multiplication_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.016,
+    "score_torch_compile_default": 1.56,
+    "score_torch_compile_reduce_overhead": 1.389,
+    "score_cuda_graph": 0.856,
+    "score_cudnn": 1.081
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

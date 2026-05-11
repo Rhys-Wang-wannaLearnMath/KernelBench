@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 93,
+  "task_name": "masked_cumsum",
+  "kernelbench_file": "level1/93_masked_cumsum.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.014,
+    "score_torch_compile_default": 2.173,
+    "score_torch_compile_reduce_overhead": 3.397,
+    "score_cuda_graph": 1.068,
+    "score_cudnn": 1.317
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

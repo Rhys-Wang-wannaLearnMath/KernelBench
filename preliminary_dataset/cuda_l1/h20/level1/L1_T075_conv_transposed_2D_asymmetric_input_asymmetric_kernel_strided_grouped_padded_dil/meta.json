@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 75,
+  "task_name": "conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided_grouped_padded_dil",
+  "kernelbench_file": "level1/75_conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided__grouped____padded____dilated__.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.623,
+    "score_torch_compile_default": 2.575,
+    "score_torch_compile_reduce_overhead": 2.66,
+    "score_cuda_graph": 2.633,
+    "score_cudnn": 6.988
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

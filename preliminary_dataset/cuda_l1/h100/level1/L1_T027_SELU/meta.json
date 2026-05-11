@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 27,
+  "task_name": "SELU",
+  "kernelbench_file": "level1/27_SELU_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.002,
+    "score_torch_compile_default": 4.058,
+    "score_torch_compile_reduce_overhead": 6.191,
+    "score_cuda_graph": 1.155,
+    "score_cudnn": 1.809
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

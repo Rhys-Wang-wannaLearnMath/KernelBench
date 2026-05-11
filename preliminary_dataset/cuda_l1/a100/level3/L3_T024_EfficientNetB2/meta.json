@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 3,
+  "task_id": 24,
+  "task_name": "EfficientNetB2",
+  "kernelbench_file": "level3/24_EfficientNetB2.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.111,
+    "score_torch_compile_default": 2.389,
+    "score_torch_compile_reduce_overhead": 1.013,
+    "score_cuda_graph": 3.152,
+    "score_cudnn": 3.237
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

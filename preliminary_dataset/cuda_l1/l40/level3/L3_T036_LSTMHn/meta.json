@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 3,
+  "task_id": 36,
+  "task_name": "LSTMHn",
+  "kernelbench_file": "level3/36_LSTMHn.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.162,
+    "score_torch_compile_default": 2.627,
+    "score_torch_compile_reduce_overhead": 2.618,
+    "score_cuda_graph": 1.47,
+    "score_cudnn": 10.257
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

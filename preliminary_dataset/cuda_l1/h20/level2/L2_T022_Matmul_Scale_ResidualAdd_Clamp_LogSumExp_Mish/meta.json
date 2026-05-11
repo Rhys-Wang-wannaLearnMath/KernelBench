@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 22,
+  "task_name": "Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish",
+  "kernelbench_file": "level2/22_Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.463,
+    "score_torch_compile_default": 1.055,
+    "score_torch_compile_reduce_overhead": 0.987,
+    "score_cuda_graph": 0.446,
+    "score_cudnn": 1.626
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

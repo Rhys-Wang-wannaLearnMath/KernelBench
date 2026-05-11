@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 69,
+  "task_name": "Conv2d_HardSwish_ReLU",
+  "kernelbench_file": "level2/69_Conv2d_HardSwish_ReLU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.45,
+    "score_torch_compile_default": 2.276,
+    "score_torch_compile_reduce_overhead": 1.809,
+    "score_cuda_graph": 0.964,
+    "score_cudnn": 18.892
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

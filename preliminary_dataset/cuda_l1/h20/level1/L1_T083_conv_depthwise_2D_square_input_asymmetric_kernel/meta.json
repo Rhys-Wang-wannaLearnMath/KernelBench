@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 83,
+  "task_name": "conv_depthwise_2D_square_input_asymmetric_kernel",
+  "kernelbench_file": "level1/83_conv_depthwise_2D_square_input_asymmetric_kernel.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.085,
+    "score_torch_compile_default": 6.574,
+    "score_torch_compile_reduce_overhead": 5.642,
+    "score_cuda_graph": 0.832,
+    "score_cudnn": 1.365
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

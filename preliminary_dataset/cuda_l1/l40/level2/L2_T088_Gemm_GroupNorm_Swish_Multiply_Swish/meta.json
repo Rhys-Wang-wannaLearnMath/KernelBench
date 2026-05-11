@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 88,
+  "task_name": "Gemm_GroupNorm_Swish_Multiply_Swish",
+  "kernelbench_file": "level2/88_Gemm_GroupNorm_Swish_Multiply_Swish.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.21,
+    "score_torch_compile_default": 1.191,
+    "score_torch_compile_reduce_overhead": 1.081,
+    "score_cuda_graph": 0.513,
+    "score_cudnn": 1.332
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

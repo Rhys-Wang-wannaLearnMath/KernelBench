@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 3,
+  "task_id": 39,
+  "task_name": "GRU",
+  "kernelbench_file": "level3/39_GRU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.085,
+    "score_torch_compile_default": 2.737,
+    "score_torch_compile_reduce_overhead": 2.782,
+    "score_cuda_graph": 1.004,
+    "score_cudnn": 2.637
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

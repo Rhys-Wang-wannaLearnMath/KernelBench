@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 99,
+  "task_name": "Matmul_GELU_Softmax",
+  "kernelbench_file": "level2/99_Matmul_GELU_Softmax.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.023,
+    "score_torch_compile_default": 2.296,
+    "score_torch_compile_reduce_overhead": 2.488,
+    "score_cuda_graph": 0.994,
+    "score_cudnn": 2.589
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

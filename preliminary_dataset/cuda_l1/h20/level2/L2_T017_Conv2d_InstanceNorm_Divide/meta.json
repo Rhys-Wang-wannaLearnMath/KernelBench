@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 17,
+  "task_name": "Conv2d_InstanceNorm_Divide",
+  "kernelbench_file": "level2/17_Conv2d_InstanceNorm_Divide.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.205,
+    "score_torch_compile_default": 1.551,
+    "score_torch_compile_reduce_overhead": 1.304,
+    "score_cuda_graph": 0.657,
+    "score_cudnn": 15.382
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

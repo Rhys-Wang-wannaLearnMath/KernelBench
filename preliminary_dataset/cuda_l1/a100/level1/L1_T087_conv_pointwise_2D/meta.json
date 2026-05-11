@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 1,
+  "task_id": 87,
+  "task_name": "conv_pointwise_2D",
+  "kernelbench_file": "level1/87_conv_pointwise_2D.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.655,
+    "score_torch_compile_default": 2.304,
+    "score_torch_compile_reduce_overhead": 2.106,
+    "score_cuda_graph": 2.423,
+    "score_cudnn": 2.539
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

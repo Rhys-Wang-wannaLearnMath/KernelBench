@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 73,
+  "task_name": "Conv2d_BatchNorm_Scaling",
+  "kernelbench_file": "level2/73_Conv2d_BatchNorm_Scaling.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.041,
+    "score_torch_compile_default": 3.573,
+    "score_torch_compile_reduce_overhead": 2.523,
+    "score_cuda_graph": 3.166,
+    "score_cudnn": 3.163
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

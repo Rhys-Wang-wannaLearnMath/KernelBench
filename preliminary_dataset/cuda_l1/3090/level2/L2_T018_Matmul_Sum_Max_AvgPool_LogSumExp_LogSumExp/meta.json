@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 18,
+  "task_name": "Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp",
+  "kernelbench_file": "level2/18_Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 5.673,
+    "score_torch_compile_default": 2.509,
+    "score_torch_compile_reduce_overhead": 2.501,
+    "score_cuda_graph": 1.736,
+    "score_cudnn": 5.639
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

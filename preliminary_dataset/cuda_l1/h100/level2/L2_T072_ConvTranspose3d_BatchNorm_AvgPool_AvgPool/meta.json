@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 72,
+  "task_name": "ConvTranspose3d_BatchNorm_AvgPool_AvgPool",
+  "kernelbench_file": "level2/72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.668,
+    "score_torch_compile_default": 1.097,
+    "score_torch_compile_reduce_overhead": 1.098,
+    "score_cuda_graph": 2.647,
+    "score_cudnn": 2.658
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

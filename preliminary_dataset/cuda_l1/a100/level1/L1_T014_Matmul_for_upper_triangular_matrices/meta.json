@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 1,
+  "task_id": 14,
+  "task_name": "Matmul_for_upper_triangular_matrices",
+  "kernelbench_file": "level1/14_Matmul_for_upper_triangular_matrices.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.06,
+    "score_torch_compile_default": 3.089,
+    "score_torch_compile_reduce_overhead": 3.144,
+    "score_cuda_graph": 3.073,
+    "score_cudnn": 3.059
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

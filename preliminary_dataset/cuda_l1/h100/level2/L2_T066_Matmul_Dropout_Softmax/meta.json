@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 66,
+  "task_name": "Matmul_Dropout_Softmax",
+  "kernelbench_file": "level2/66_Matmul_Dropout_Softmax.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 13.615,
+    "score_torch_compile_default": 16.365,
+    "score_torch_compile_reduce_overhead": 15.28,
+    "score_cuda_graph": 12.657,
+    "score_cudnn": 12.072
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

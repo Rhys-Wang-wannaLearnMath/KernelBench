@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 60,
+  "task_name": "conv_standard_3D_square_input_asymmetric_kernel",
+  "kernelbench_file": "level1/60_conv_standard_3D__square_input__asymmetric_kernel.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.226,
+    "score_torch_compile_default": 1.283,
+    "score_torch_compile_reduce_overhead": 1.23,
+    "score_cuda_graph": 2.345,
+    "score_cudnn": 2.567
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

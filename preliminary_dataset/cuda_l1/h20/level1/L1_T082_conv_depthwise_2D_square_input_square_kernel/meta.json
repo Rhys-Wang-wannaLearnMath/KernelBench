@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 82,
+  "task_name": "conv_depthwise_2D_square_input_square_kernel",
+  "kernelbench_file": "level1/82_conv_depthwise_2D_square_input_square_kernel.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.101,
+    "score_torch_compile_default": 6.315,
+    "score_torch_compile_reduce_overhead": 6.009,
+    "score_cuda_graph": 1.048,
+    "score_cudnn": 1.336
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

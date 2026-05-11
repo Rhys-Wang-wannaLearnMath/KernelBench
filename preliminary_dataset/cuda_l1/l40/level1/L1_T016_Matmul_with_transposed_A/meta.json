@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 1,
+  "task_id": 16,
+  "task_name": "Matmul_with_transposed_A",
+  "kernelbench_file": "level1/16_Matmul_with_transposed_A.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.048,
+    "score_torch_compile_default": 1.353,
+    "score_torch_compile_reduce_overhead": 1.541,
+    "score_cuda_graph": 0.902,
+    "score_cudnn": 1.17
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

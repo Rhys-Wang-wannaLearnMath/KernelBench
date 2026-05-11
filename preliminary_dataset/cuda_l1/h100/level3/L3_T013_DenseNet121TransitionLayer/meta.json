@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 3,
+  "task_id": 13,
+  "task_name": "DenseNet121TransitionLayer",
+  "kernelbench_file": "level3/13_DenseNet121TransitionLayer.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.926,
+    "score_torch_compile_default": 1.705,
+    "score_torch_compile_reduce_overhead": 1.534,
+    "score_cuda_graph": 1.643,
+    "score_cudnn": 2.249
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

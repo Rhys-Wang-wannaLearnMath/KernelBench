@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 9,
+  "task_name": "Tall_skinny_matrix_multiplication",
+  "kernelbench_file": "level1/9_Tall_skinny_matrix_multiplication_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 25.969,
+    "score_torch_compile_default": 16.625,
+    "score_torch_compile_reduce_overhead": 17.665,
+    "score_cuda_graph": 38.654,
+    "score_cudnn": 17.436
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

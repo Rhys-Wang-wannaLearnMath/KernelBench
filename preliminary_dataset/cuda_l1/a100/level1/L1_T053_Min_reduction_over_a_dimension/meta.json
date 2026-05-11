@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 1,
+  "task_id": 53,
+  "task_name": "Min_reduction_over_a_dimension",
+  "kernelbench_file": "level1/53_Min_reduction_over_a_dimension.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.492,
+    "score_torch_compile_default": 2.803,
+    "score_torch_compile_reduce_overhead": 3.507,
+    "score_cuda_graph": 1.434,
+    "score_cudnn": 1.812
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

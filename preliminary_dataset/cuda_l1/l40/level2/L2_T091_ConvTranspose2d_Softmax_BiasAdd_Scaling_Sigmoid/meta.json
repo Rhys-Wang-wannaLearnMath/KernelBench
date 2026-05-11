@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 91,
+  "task_name": "ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid",
+  "kernelbench_file": "level2/91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.651,
+    "score_torch_compile_default": 0.992,
+    "score_torch_compile_reduce_overhead": 0.995,
+    "score_cuda_graph": 1.199,
+    "score_cudnn": 6.343
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

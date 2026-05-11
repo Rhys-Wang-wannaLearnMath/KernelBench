@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 3,
+  "task_id": 43,
+  "task_name": "MinGPTCausalAttention",
+  "kernelbench_file": "level3/43_MinGPTCausalAttention.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 13.114,
+    "score_torch_compile_default": null,
+    "score_torch_compile_reduce_overhead": null,
+    "score_cuda_graph": null,
+    "score_cudnn": null
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

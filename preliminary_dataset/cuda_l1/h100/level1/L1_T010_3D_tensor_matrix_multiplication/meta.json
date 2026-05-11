@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 10,
+  "task_name": "3D_tensor_matrix_multiplication",
+  "kernelbench_file": "level1/10_3D_tensor_matrix_multiplication.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.031,
+    "score_torch_compile_default": 1.142,
+    "score_torch_compile_reduce_overhead": 1.123,
+    "score_cuda_graph": 0.97,
+    "score_cudnn": 1.038
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

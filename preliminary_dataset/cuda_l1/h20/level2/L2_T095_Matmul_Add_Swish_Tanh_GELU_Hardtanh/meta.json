@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 95,
+  "task_name": "Matmul_Add_Swish_Tanh_GELU_Hardtanh",
+  "kernelbench_file": "level2/95_Matmul_Add_Swish_Tanh_GELU_Hardtanh.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.435,
+    "score_torch_compile_default": 1.574,
+    "score_torch_compile_reduce_overhead": 1.519,
+    "score_cuda_graph": 0.613,
+    "score_cudnn": 1.711
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

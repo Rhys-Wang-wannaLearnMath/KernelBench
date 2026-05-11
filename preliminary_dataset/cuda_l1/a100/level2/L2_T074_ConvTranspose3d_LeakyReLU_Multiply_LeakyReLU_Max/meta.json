@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 74,
+  "task_name": "ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max",
+  "kernelbench_file": "level2/74_ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.188,
+    "score_torch_compile_default": 3.072,
+    "score_torch_compile_reduce_overhead": 3.15,
+    "score_cuda_graph": 3.829,
+    "score_cudnn": 5.644
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

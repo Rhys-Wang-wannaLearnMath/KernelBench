@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 1,
+  "task_id": 46,
+  "task_name": "Average_Pooling_3D",
+  "kernelbench_file": "level1/46_Average_Pooling_3D.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.428,
+    "score_torch_compile_default": 1.62,
+    "score_torch_compile_reduce_overhead": 2.35,
+    "score_cuda_graph": 2.051,
+    "score_cudnn": 1.452
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 1,
+  "task_id": 88,
+  "task_name": "MinGPTNewGelu",
+  "kernelbench_file": "level1/88_MinGPTNewGelu.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 4.647,
+    "score_torch_compile_default": 2.03,
+    "score_torch_compile_reduce_overhead": 3.315,
+    "score_cuda_graph": 5.01,
+    "score_cudnn": 5.177
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

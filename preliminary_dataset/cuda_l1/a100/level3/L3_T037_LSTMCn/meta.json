@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 3,
+  "task_id": 37,
+  "task_name": "LSTMCn",
+  "kernelbench_file": "level3/37_LSTMCn.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 3.3,
+    "score_torch_compile_default": 2.589,
+    "score_torch_compile_reduce_overhead": 2.607,
+    "score_cuda_graph": 1.02,
+    "score_cudnn": 11.147
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

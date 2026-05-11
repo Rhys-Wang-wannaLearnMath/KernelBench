@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 83,
+  "task_name": "Conv3d_GroupNorm_Min_Clamp_Dropout",
+  "kernelbench_file": "level2/83_Conv3d_GroupNorm_Min_Clamp_Dropout.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 182.301,
+    "score_torch_compile_default": 74.884,
+    "score_torch_compile_reduce_overhead": 78.528,
+    "score_cuda_graph": 180.604,
+    "score_cudnn": 749.869
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

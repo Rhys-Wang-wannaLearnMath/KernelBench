@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 1,
+  "task_id": 21,
+  "task_name": "Sigmoid",
+  "kernelbench_file": "level1/21_Sigmoid.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.185,
+    "score_torch_compile_default": 5.431,
+    "score_torch_compile_reduce_overhead": 7.429,
+    "score_cuda_graph": 2.313,
+    "score_cudnn": 2.295
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

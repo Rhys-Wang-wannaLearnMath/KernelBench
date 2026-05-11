@@ -1,0 +1,14 @@
+{
+  "source": "kernelagent",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 43,
+  "task_name": "Max_Pooling_3D",
+  "kernelbench_file": "level1/43_Max_Pooling_3D.py",
+  "optimized_interface": "kernel_function",
+  "has_optimized": true,
+  "has_input_kernel": true,
+  "has_trace": true,
+  "trace_path_upstream": "kernelagent-optimization-artifacts/43_Max_Pooling_3D/optimization_trace",
+  "source_path": "kernelagent-optimization-artifacts/43_Max_Pooling_3D"
+}

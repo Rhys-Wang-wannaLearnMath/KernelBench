@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 71,
+  "task_name": "Conv2d_Divide_LeakyReLU",
+  "kernelbench_file": "level2/71_Conv2d_Divide_LeakyReLU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.377,
+    "score_torch_compile_default": 2.629,
+    "score_torch_compile_reduce_overhead": 1.83,
+    "score_cuda_graph": 0.723,
+    "score_cudnn": 25.545
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

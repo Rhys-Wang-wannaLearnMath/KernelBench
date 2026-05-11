@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 2,
+  "task_id": 31,
+  "task_name": "Conv2d_Min_Add_Multiply",
+  "kernelbench_file": "level2/31_Conv2d_Min_Add_Multiply.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.31,
+    "score_torch_compile_default": 2.244,
+    "score_torch_compile_reduce_overhead": 1.675,
+    "score_cuda_graph": 1.393,
+    "score_cudnn": 1.662
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

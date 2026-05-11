@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 80,
+  "task_name": "Gemm_Max_Subtract_GELU",
+  "kernelbench_file": "level2/80_Gemm_Max_Subtract_GELU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 39.32,
+    "score_torch_compile_default": 35.127,
+    "score_torch_compile_reduce_overhead": 33.126,
+    "score_cuda_graph": 20.572,
+    "score_cudnn": 40.012
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

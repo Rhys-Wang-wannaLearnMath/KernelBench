@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 24,
+  "task_name": "Conv3d_Min_Softmax",
+  "kernelbench_file": "level2/24_Conv3d_Min_Softmax.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.017,
+    "score_torch_compile_default": 0.968,
+    "score_torch_compile_reduce_overhead": 0.605,
+    "score_cuda_graph": 0.896,
+    "score_cudnn": 17.63
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

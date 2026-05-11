@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 82,
+  "task_name": "Conv2d_Tanh_Scaling_BiasAdd_Max",
+  "kernelbench_file": "level2/82_Conv2d_Tanh_Scaling_BiasAdd_Max.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.171,
+    "score_torch_compile_default": 1.634,
+    "score_torch_compile_reduce_overhead": 1.202,
+    "score_cuda_graph": 0.679,
+    "score_cudnn": 11.241
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

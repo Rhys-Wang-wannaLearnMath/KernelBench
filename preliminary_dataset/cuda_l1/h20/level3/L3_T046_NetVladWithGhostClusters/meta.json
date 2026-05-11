@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h20",
+  "level_id": 3,
+  "task_id": 46,
+  "task_name": "NetVladWithGhostClusters",
+  "kernelbench_file": "level3/46_NetVladWithGhostClusters.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.323,
+    "score_torch_compile_default": 1.192,
+    "score_torch_compile_reduce_overhead": 0.643,
+    "score_cuda_graph": 0.249,
+    "score_cudnn": 1.417
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h20.json"
+}

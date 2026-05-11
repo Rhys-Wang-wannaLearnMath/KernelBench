@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 16,
+  "task_name": "ConvTranspose2d_Mish_Add_Hardtanh_Scaling",
+  "kernelbench_file": "level2/16_ConvTranspose2d_Mish_Add_Hardtanh_Scaling.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.088,
+    "score_torch_compile_default": 0.98,
+    "score_torch_compile_reduce_overhead": 0.946,
+    "score_cuda_graph": 0.924,
+    "score_cudnn": 7.401
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "kernelagent",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 77,
+  "task_name": "conv_transposed_3D_square_input_square_kernel_padded_dilated_strided",
+  "kernelbench_file": "level1/77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__.py",
+  "optimized_interface": "kernel_function",
+  "has_optimized": true,
+  "has_input_kernel": true,
+  "has_trace": true,
+  "trace_path_upstream": "kernelagent-optimization-artifacts/77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__/optimization_trace",
+  "source_path": "kernelagent-optimization-artifacts/77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__"
+}

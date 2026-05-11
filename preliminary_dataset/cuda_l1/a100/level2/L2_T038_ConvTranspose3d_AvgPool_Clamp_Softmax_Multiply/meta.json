@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 38,
+  "task_name": "ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply",
+  "kernelbench_file": "level2/38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.163,
+    "score_torch_compile_default": 2.03,
+    "score_torch_compile_reduce_overhead": 2.054,
+    "score_cuda_graph": 2.039,
+    "score_cudnn": 3.625
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

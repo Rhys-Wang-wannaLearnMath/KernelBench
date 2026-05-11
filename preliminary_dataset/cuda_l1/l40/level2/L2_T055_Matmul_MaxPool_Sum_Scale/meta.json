@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 55,
+  "task_name": "Matmul_MaxPool_Sum_Scale",
+  "kernelbench_file": "level2/55_Matmul_MaxPool_Sum_Scale.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.17,
+    "score_torch_compile_default": 1.201,
+    "score_torch_compile_reduce_overhead": 1.217,
+    "score_cuda_graph": 0.35,
+    "score_cudnn": 1.165
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

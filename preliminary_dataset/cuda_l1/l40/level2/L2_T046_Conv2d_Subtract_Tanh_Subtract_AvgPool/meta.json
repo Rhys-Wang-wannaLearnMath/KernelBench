@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 46,
+  "task_name": "Conv2d_Subtract_Tanh_Subtract_AvgPool",
+  "kernelbench_file": "level2/46_Conv2d_Subtract_Tanh_Subtract_AvgPool.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.367,
+    "score_torch_compile_default": 2.052,
+    "score_torch_compile_reduce_overhead": 1.663,
+    "score_cuda_graph": 1.083,
+    "score_cudnn": 1.815
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

@@ -1,0 +1,43 @@
+import torch
+import torch.nn as nn
+
+class Model(nn.Module):
+    """
+    Simple model that finds the index of the minimum value along a specified dimension.
+    """
+    def __init__(self, dim: int, cudnn_flags: dict = None):
+        """
+        Initializes the model with the dimension to perform argmin on.
+
+        Args:
+            dim (int): Dimension along which to find the minimum value.
+            cudnn_flags (dict, optional): Dictionary of cuDNN backend flags. Defaults to None.
+        """
+        super(Model, self).__init__()
+        self.dim = dim
+        self.cudnn_flags = cudnn_flags if cudnn_flags is not None else {}
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Finds the index of the minimum value along the specified dimension.
+
+        Args:
+            x (torch.Tensor): Input tensor.
+
+        Returns:
+            torch.Tensor: Tensor containing the indices of the minimum values along the specified dimension.
+        """
+        with torch.backends.cudnn.flags(**self.cudnn_flags):
+            return torch.argmin(x, dim=self.dim)
+
+batch_size = 16
+dim1 = 256
+dim2 = 256
+dim = 1
+
+def get_inputs():
+    x = torch.randn(batch_size, dim1, dim2)
+    return [x]
+
+def get_init_inputs():
+    return [dim]

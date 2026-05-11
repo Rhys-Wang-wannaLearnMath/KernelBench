@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 1,
+  "task_name": "Conv2D_ReLU_BiasAdd",
+  "kernelbench_file": "level2/1_Conv2D_ReLU_BiasAdd.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.639,
+    "score_torch_compile_default": 2.663,
+    "score_torch_compile_reduce_overhead": 2.333,
+    "score_cuda_graph": 1.123,
+    "score_cudnn": 1.829
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

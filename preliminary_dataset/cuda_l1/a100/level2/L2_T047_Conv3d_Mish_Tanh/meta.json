@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 47,
+  "task_name": "Conv3d_Mish_Tanh",
+  "kernelbench_file": "level2/47_Conv3d_Mish_Tanh.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.026,
+    "score_torch_compile_default": 1.14,
+    "score_torch_compile_reduce_overhead": 1.396,
+    "score_cuda_graph": 0.883,
+    "score_cudnn": 1.094
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

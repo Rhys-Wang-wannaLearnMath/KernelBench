@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 1,
+  "task_id": 48,
+  "task_name": "Mean_reduction_over_a_dimension",
+  "kernelbench_file": "level1/48_Mean_reduction_over_a_dimension.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.008,
+    "score_torch_compile_default": 3.635,
+    "score_torch_compile_reduce_overhead": 4.571,
+    "score_cuda_graph": 1.334,
+    "score_cudnn": 1.021
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

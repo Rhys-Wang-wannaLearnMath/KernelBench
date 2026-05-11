@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 2,
+  "task_name": "ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide",
+  "kernelbench_file": "level2/2_ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.09,
+    "score_torch_compile_default": 0.49,
+    "score_torch_compile_reduce_overhead": 0.47,
+    "score_cuda_graph": null,
+    "score_cudnn": 4.319
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

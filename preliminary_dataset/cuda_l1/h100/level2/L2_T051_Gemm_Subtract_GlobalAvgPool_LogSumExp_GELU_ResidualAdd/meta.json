@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "h100",
+  "level_id": 2,
+  "task_id": 51,
+  "task_name": "Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd",
+  "kernelbench_file": "level2/51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.825,
+    "score_torch_compile_default": 1.959,
+    "score_torch_compile_reduce_overhead": 1.72,
+    "score_cuda_graph": 1.039,
+    "score_cudnn": 2.955
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/h100.json"
+}

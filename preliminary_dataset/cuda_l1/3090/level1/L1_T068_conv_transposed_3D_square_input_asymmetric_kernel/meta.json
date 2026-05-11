@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 1,
+  "task_id": 68,
+  "task_name": "conv_transposed_3D_square_input_asymmetric_kernel",
+  "kernelbench_file": "level1/68_conv_transposed_3D__square_input__asymmetric_kernel.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.553,
+    "score_torch_compile_default": 1.529,
+    "score_torch_compile_reduce_overhead": 1.618,
+    "score_cuda_graph": 14.298,
+    "score_cudnn": 14.189
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

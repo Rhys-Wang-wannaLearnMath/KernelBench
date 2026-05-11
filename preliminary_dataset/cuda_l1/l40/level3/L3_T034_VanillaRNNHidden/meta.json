@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 3,
+  "task_id": 34,
+  "task_name": "VanillaRNNHidden",
+  "kernelbench_file": "level3/34_VanillaRNNHidden.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.905,
+    "score_torch_compile_default": 2.194,
+    "score_torch_compile_reduce_overhead": null,
+    "score_cuda_graph": 0.566,
+    "score_cudnn": 2.026
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

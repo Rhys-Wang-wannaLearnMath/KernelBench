@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "3090",
+  "level_id": 2,
+  "task_id": 62,
+  "task_name": "Matmul_GroupNorm_LeakyReLU_Sum",
+  "kernelbench_file": "level2/62_Matmul_GroupNorm_LeakyReLU_Sum.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.387,
+    "score_torch_compile_default": 2.558,
+    "score_torch_compile_reduce_overhead": 2.261,
+    "score_cuda_graph": 0.973,
+    "score_cudnn": 2.51
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/3090.json"
+}

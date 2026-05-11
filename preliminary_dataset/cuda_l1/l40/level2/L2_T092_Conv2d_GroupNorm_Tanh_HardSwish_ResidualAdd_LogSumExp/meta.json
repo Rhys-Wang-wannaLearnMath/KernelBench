@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 2,
+  "task_id": 92,
+  "task_name": "Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp",
+  "kernelbench_file": "level2/92_Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.11,
+    "score_torch_compile_default": 0.963,
+    "score_torch_compile_reduce_overhead": 0.731,
+    "score_cuda_graph": 0.63,
+    "score_cudnn": 1.196
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

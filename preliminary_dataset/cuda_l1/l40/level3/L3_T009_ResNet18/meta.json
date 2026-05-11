@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "l40",
+  "level_id": 3,
+  "task_id": 9,
+  "task_name": "ResNet18",
+  "kernelbench_file": "level3/9_ResNet18.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.664,
+    "score_torch_compile_default": 2.715,
+    "score_torch_compile_reduce_overhead": 1.462,
+    "score_cuda_graph": 2.933,
+    "score_cudnn": 3.351
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/l40.json"
+}

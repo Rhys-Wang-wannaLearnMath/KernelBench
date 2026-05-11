@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 86,
+  "task_name": "Matmul_Divide_GELU",
+  "kernelbench_file": "level2/86_Matmul_Divide_GELU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.255,
+    "score_torch_compile_default": 1.984,
+    "score_torch_compile_reduce_overhead": 2.14,
+    "score_cuda_graph": 0.975,
+    "score_cudnn": 1.601
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

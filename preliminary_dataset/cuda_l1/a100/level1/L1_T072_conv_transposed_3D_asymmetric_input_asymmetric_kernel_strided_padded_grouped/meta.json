@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 1,
+  "task_id": 72,
+  "task_name": "conv_transposed_3D_asymmetric_input_asymmetric_kernel_strided_padded_grouped",
+  "kernelbench_file": "level1/72_conv_transposed_3D_asymmetric_input_asymmetric_kernel___strided_padded_grouped_.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 2.655,
+    "score_torch_compile_default": 2.617,
+    "score_torch_compile_reduce_overhead": 2.696,
+    "score_cuda_graph": 2.68,
+    "score_cudnn": 6.294
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}

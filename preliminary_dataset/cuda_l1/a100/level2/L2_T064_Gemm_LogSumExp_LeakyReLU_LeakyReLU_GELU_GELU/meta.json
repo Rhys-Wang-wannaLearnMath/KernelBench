@@ -1,0 +1,21 @@
+{
+  "source": "cuda_l1",
+  "gpu": "a100",
+  "level_id": 2,
+  "task_id": 64,
+  "task_name": "Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU",
+  "kernelbench_file": "level2/64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU.py",
+  "optimized_interface": "ModelNew",
+  "has_optimized": true,
+  "has_baseline_cuda_graph": true,
+  "has_baseline_cudnn": true,
+  "scores": {
+    "score_default": 1.287,
+    "score_torch_compile_default": 1.127,
+    "score_torch_compile_reduce_overhead": 1.312,
+    "score_cuda_graph": 0.864,
+    "score_cudnn": 1.306
+  },
+  "ref_matches_kernelbench_current": false,
+  "source_path": "CUDA-L1/optimized_cuda_code/a100.json"
+}
